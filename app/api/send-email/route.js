@@ -17,9 +17,9 @@ export async function POST(req) {
 
   try {
     // Send email
-    await transporter.sendMail({
+    let info = await transporter.sendMail({
       from: `"${firstname} ${lastname}" <${email}>`,
-      to: process.env.RECIPIENT_EMAIL, // Your Gmail address
+      to: process.env.RECIPIENT_EMAIL,
       subject: 'New Contact Form Submission',
       text: `
         Name: ${firstname} ${lastname}
@@ -30,11 +30,12 @@ export async function POST(req) {
       `,
     });
 
-    return NextResponse.json({ success: true });
+    console.log('Message sent: %s', info.messageId);
+    return NextResponse.json({ success: true, messageId: info.messageId });
   } catch (error) {
-    console.error('Error sending email:', error);
+    console.error('Detailed error:', error);
     return NextResponse.json(
-      { success: false, error: 'Failed to send email' },
+      { success: false, error: error.message, details: JSON.stringify(error) },
       { status: 500 }
     );
   }
