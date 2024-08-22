@@ -1,36 +1,50 @@
 "use client";
 
-import Link from "next/link";
-import { BsArrowDownRight } from "react-icons/bs";
+import { AiFillDatabase } from "react-icons/ai";
+import { CgWebsite } from "react-icons/cg";
+import { FaChartLine } from "react-icons/fa6";
+import { RiPaintBrushFill } from "react-icons/ri";
 
 const services = [
   {
     num: "01",
-    title: "Web Development",
-    descroption: "Lorem isadsa isdsa kpkp wefew. Erfe erte. ",
+    title: "Full-Stack",
+    descroption:
+      "Competent in delivering end-to-end web solutions that integrate front-end and back-end seamlessly. Proficient in both architecture design and implementation. ",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    descroption: "Lorem isadsa isdsa kpkp wefew. Erfe erte. ",
+    title: "Front-End",
+    descroption:
+      "Expert in creating responsive, user-friendly interfaces with modern web technologies. Skilled in enhancing user experiences with clean and intuitive designs. ",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
-    descroption: "Lorem isadsa isdsa kpkp wefew. Erfe erte. ",
+    title: "Back-End",
+    descroption:
+      "Focused on building secure, scalable server-side systems with efficient data management. Adept at optimizing performance and ensuring system reliability. ",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
-    descroption: "Lorem isadsa isdsa kpkp wefew. Erfe erte. ",
+    title: "Data Analysis",
+    descroption:
+      "Skilled in extracting actionable insights from complex datasets to drive informed decision-making. Capable of leveraging advanced analytical tools to support business strategies. ",
     href: "",
   },
 ];
 
+const iconMap = {
+  "Full-Stack": CgWebsite,
+  "Front-End": RiPaintBrushFill,
+  "Back-End": AiFillDatabase,
+  "Data Analysis": FaChartLine,
+};
+
 import { motion } from "framer-motion";
+import React from "react";
 
 const Services = () => {
   return (
@@ -55,12 +69,18 @@ const Services = () => {
                   <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
                     {service.num}
                   </div>
-                  <Link
+                  <div
                     href={service.href}
-                    className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                    className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-300 flex justify-center items-center overflow-hidden"
                   >
-                    <BsArrowDownRight className="text-primary text-3xl" />
-                  </Link>
+                    <div className="transform hover:scale-125 hover:shadow-lg transition-all duration-300 ease-out">
+                      {React.createElement(iconMap[service.title], {
+                        className:
+                          "text-primary text-3xl transition-colors duration-300",
+                        style: { animation: "bounce 0.5s ease infinite" },
+                      })}
+                    </div>
+                  </div>
                 </div>
                 {/* heading */}
                 <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
