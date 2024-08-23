@@ -14,7 +14,7 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
+    "I’m a Master's student in Software Engineering at UC Irvine, specializing in web development with expertise in HTML, CSS, JavaScript, React.js, Node.js, and MongoDB. I've developed web applications, including a stock management platform, an e-commerce site using the MERN stack, and a Spotify-clone website using Next.js.",
   info: [
     {
       fieldName: "Name",
@@ -29,8 +29,8 @@ const about = {
       fieldValue: "2+ Years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "kevin.01",
+      fieldName: "Title",
+      fieldValue: "Software Engineer",
     },
     {
       fieldName: "Nationality",
@@ -41,8 +41,8 @@ const about = {
       fieldValue: "yuehcw@uci.edu",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldName: "Availability:",
+      fieldValue: "Seeking FT Roles",
     },
     {
       fieldName: "Languages",
@@ -56,37 +56,22 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
+    "Currently, I'm a Software Engineering Intern at Sleeper, optimizing SEO by developing player statistics pages with Next.js and Redis. My previous roles at Newegg and GoFreight focused on machine learning and data-driven strategies. I'm passionate about contributing to innovative web development projects and advancing my career in this field.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Sleeper",
+      position: "Software Engineering Intern",
+      duration: "07/2024 - 09/2024",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Newegg",
+      position: "Data Analyst",
+      duration: "10/2021 - 04/2022",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "GoFreight",
+      position: "Data Analyst Intern",
+      duration: "05/2021 - 10/2021",
     },
   ],
 };
@@ -96,37 +81,22 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
+    "I'm pursuing a Master's in Software Engineering at UC Irvine, set to graduate in December 2024. I also earned a Bachelor's in Business Economics from UC Irvine in 2021 and an Associate's in Economics from Santa Barbara City College. My diverse background makes me well-prepared for a career in web development.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "University of California, Irvine",
+      degree: "Master of Software Engineering",
+      duration: "09/2023 - 12/2024 (Expected)",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "University of California, Irvine",
+      degree: "Bachelor of Arts in Business Economics",
+      duration: "09/2019 - 03/2021",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Santa Barbara City College",
+      degree: "Associate of Arts in Economics",
+      duration: "08/2016 - 12/2018",
     },
   ],
 };
@@ -135,7 +105,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
+    "I excel in modern web development, with expertise in HTML5, CSS3, JavaScript, and React.js for creating dynamic UIs. I'm proficient in Next.js for server-side rendering, Tailwind CSS for styling, and Node.js for backend development. I'm also skilled in using Figma to integrate design with development.",
   skillList: [
     {
       icon: <FaHtml5 />,

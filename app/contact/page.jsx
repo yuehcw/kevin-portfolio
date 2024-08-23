@@ -27,11 +27,11 @@ const info = [
     title: "Email",
     description: "yuehcw@uci.edu",
   },
-  {
-    icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "16899 Jamboree Road Apt 229",
-  },
+  // {
+  //   icon: <FaMapMarkerAlt />,
+  //   title: "Address",
+  //   description: "16899 Jamboree Road Apt 229",
+  // },
 ];
 
 const Contact = () => {
@@ -124,14 +124,15 @@ const Contact = () => {
               {/* select */}
               <Select name="service" onValueChange={handleServiceChange} value={formData.service}>
                 <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select a service" />
+                  <SelectValue placeholder="How Can I Help?" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="web">Web Development</SelectItem>
-                    <SelectItem value="ui">UI/UX Design</SelectItem>
-                    <SelectItem value="other">Other</SelectItem>
+                    <SelectItem value="web">Full-Stack Development</SelectItem>
+                    <SelectItem value="ui">Front-End Development</SelectItem>
+                    <SelectItem value="other">Back-End Development</SelectItem>
+                    <SelectItem value="other">Data Analysis</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

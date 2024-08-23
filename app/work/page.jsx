@@ -22,37 +22,48 @@ import Link from "next/link";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "fullstack",
+    title: "Spotify-Clone",
     description:
-      "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+      "A Spotify clone replicating core Spotify features, allowing users to browse, play music, and manage playlists. Designed with a sleek, user-friendly interface, closely mirroring the original Spotify experience. Deployed on Vercel for smooth performance and easy accessibility. The tech stack includes TypeScript, Next.js, React.js, Supabase, and Tailwind CSS.",
+    stack: [
+      { name: "TypeScript" },
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Supabase" },
+      { name: "Tailwind" },
+    ],
+    image: "/assets/work/project_spotify-clone.png",
+    live: "https://spotify-clone-yuehcw.vercel.app/",
+    github: "https://github.com/yuehcw/spotify-clone",
   },
   {
     num: "02",
     category: "fullstack",
-    title: "project 2",
+    title: "Baller",
     description:
-      "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+      "Baller is a web platform that enables users to trade NBA players like stocks and monitor real-time performance. It features a secure authentication system and real-time data updates, enhancing user engagement and operational efficiency. Built with React.js for the front-end and Express.js with MongoDB for the back-end. The tech stack includes JavaScript, MERN Stack, Axios, HTML, and CSS.",
+    stack: [
+      { name: "JavaScript" },
+      { name: "React.js" },
+      { name: "Express.js" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/work/project_baller.png",
+    live: "https://baller-yuehcw-f6895eed5e61.herokuapp.com/",
+    github: "https://github.com/yuehcw/Baller",
   },
-  {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
-  },
+  // {
+  //   num: "03",
+  //   category: "frontend",
+  //   title: "project 3",
+  //   description:
+  //     "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
+  //   stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+  //   image: "/assets/work/thumb3.png",
+  //   live: "",
+  //   github: "",
+  // },
 ];
 
 const Work = () => {
@@ -79,7 +90,7 @@ const Work = () => {
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* outline num */}
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
-                {project.num}
+                {project.title}
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
@@ -142,15 +153,15 @@ const Work = () => {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                    <div className="h-[460px] relative group flex justify-center items-center bg-primary">
                       {/* overlay */}
-                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/5 z-10"></div>
                       {/* image */}
                       <div className="relative w-full h-full">
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-contain"
                           alt=""
                         />
                       </div>
