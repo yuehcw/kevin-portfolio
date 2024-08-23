@@ -73,7 +73,7 @@ const Services = () => {
                     href={service.href}
                     className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-300 flex justify-center items-center overflow-hidden"
                   >
-                    <div className="transform hover:scale-125 hover:shadow-lg transition-all duration-300 ease-out">
+                    <div className="transform hover:scale-125 transition-all duration-300 ease-out">
                       {React.createElement(iconMap[service.title], {
                         className:
                           "text-primary text-3xl transition-colors duration-300",
