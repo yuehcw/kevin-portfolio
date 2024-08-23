@@ -23,13 +23,15 @@ const Home = () => {
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload />
+              <Button variant="outline" size="lg" className="uppercase">
+                <a
+                  href="https://drive.google.com/file/d/1W_B3ym8QgvFjr6qevWDjqjyhkKUgtBB4/view?usp=sharing"
+                  download
+                  className="flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload />
+                </a>
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Social
