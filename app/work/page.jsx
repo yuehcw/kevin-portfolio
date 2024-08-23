@@ -25,11 +25,10 @@ const projects = [
     category: "fullstack",
     title: "Spotify-Clone",
     description:
-      "A Spotify clone replicating core Spotify features, allowing users to browse, play music, and manage playlists. Designed with a sleek, user-friendly interface, closely mirroring the original Spotify experience. Deployed on Vercel for smooth performance and easy accessibility. The tech stack includes TypeScript, Next.js, React.js, Supabase, and Tailwind CSS.",
+      "A Spotify clone replicating core Spotify features, allowing users to browse, play music, and manage playlists. Designed with a sleek, user-friendly interface, closely mirroring the original Spotify experience. Deployed on Vercel for smooth performance and easy accessibility. The tech stack includes TypeScript, Next.js, Supabase, and Tailwind CSS.",
     stack: [
       { name: "TypeScript" },
       { name: "Next.js" },
-      { name: "React.js" },
       { name: "Supabase" },
       { name: "Tailwind" },
     ],
