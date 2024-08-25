@@ -85,7 +85,7 @@ const education = {
   items: [
     {
       institution: "University of California, Irvine",
-      degree: "Master of Software Engineering",
+      degree: "Master of Science in Software Engineering",
       duration: "09/2023 - 12/2024 (Expected)",
     },
     {
