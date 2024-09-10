@@ -23,6 +23,22 @@ const projects = [
   {
     num: "01",
     category: "fullstack",
+    title: "AI Chatbot",
+    description:
+      "An AI chatbot replicating core ChatGPT features, allowing users to interact with an advanced conversational interface. Designed with a modern, intuitive interface, providing a seamless user experience. Deployed the backend on Heroku and the frontend on Vercel for smooth performance and efficient scalability. The tech stack includes JavaScript, React.js, Node.js, Express.js, MongoDB, Clerk, and ImageKit.",
+    stack: [
+      { name: "JavaScript" },
+      { name: "React.js" },
+      { name: "Express.js" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/work/project_aichatbot.png",
+    live: "https://aichatbot.yuehcw.com/",
+    github: "https://github.com/yuehcw/ai-chatbot",
+  },
+  {
+    num: "02",
+    category: "fullstack",
     title: "Spotify-Clone",
     description:
       "A Spotify clone replicating core Spotify features, allowing users to browse, play music, and manage playlists. Designed with a sleek, user-friendly interface, closely mirroring the original Spotify experience. Deployed on Vercel for smooth performance and easy accessibility. The tech stack includes TypeScript, Next.js, Supabase, and Tailwind CSS.",
@@ -37,7 +53,7 @@ const projects = [
     github: "https://github.com/yuehcw/spotify-clone",
   },
   {
-    num: "02",
+    num: "03",
     category: "fullstack",
     title: "Baller",
     description:
@@ -52,17 +68,6 @@ const projects = [
     live: "https://baller-yuehcw-f6895eed5e61.herokuapp.com/",
     github: "https://github.com/yuehcw/Baller",
   },
-  // {
-  //   num: "03",
-  //   category: "frontend",
-  //   title: "project 3",
-  //   description:
-  //     "Lorem isadsa isdsa kpkp wefew. Erfe erte dsfgs yry htrh qertr qwrqwre.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-  //   image: "/assets/work/thumb3.png",
-  //   live: "",
-  //   github: "",
-  // },
 ];
 
 const Work = () => {
