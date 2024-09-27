@@ -15,7 +15,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Yueh Chun Wu</span>
+              Hello I'm <br /> <span className="text-accent">Kevin Wu</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               Skilled in crafting seamless digital experiences with proficiency
@@ -25,7 +25,7 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase">
                 <a
-                  href="https://drive.google.com/file/d/1WLly44LwmR1IKibcvpZsRJswGsAdkCrM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1an8rOVpEan9rrdXIyhxdO8bJRbqyQ62O/view?usp=sharing"
                   download
                   className="flex items-center gap-2"
                 >
