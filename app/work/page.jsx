@@ -49,7 +49,7 @@ const projects = [
       { name: "Tailwind" },
     ],
     image: "/assets/work/project_spotify-clone.png",
-    live: "https://spotify-clone-yuehcw.vercel.app/",
+    live: "https://spotify-clone.yuehcw.com/",
     github: "https://github.com/yuehcw/spotify-clone",
   },
   {
