@@ -14,7 +14,7 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "I’m a Master's student in Software Engineering at UC Irvine, specializing in web development with expertise in HTML, CSS, JavaScript, React.js, Node.js, and MongoDB. I've developed web applications, including a stock management platform, an e-commerce site using the MERN stack, and a Spotify-clone website using Next.js.",
+    "I am a Web Developer with expertise in React, Next.js, and Tailwind CSS, and experience in backend frameworks like Spring and Django. I’ve optimized SEO, improved scalability, and built user-friendly applications in roles at Prenostik and Sleeper, focusing on delivering high-performance, impactful solutions.",
   info: [
     {
       fieldName: "Name",
@@ -30,7 +30,7 @@ const about = {
     },
     {
       fieldName: "Title",
-      fieldValue: "Software Engineer",
+      fieldValue: "Web Developer",
     },
     {
       fieldName: "Nationality",
@@ -56,11 +56,16 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Currently, I'm a Software Engineering Intern at Sleeper, optimizing SEO by developing player statistics pages with Next.js and Redis. My previous roles at Newegg and GoFreight focused on machine learning and data-driven strategies. I'm passionate about contributing to innovative web development projects and advancing my career in this field.",
+    "Currently, I'm a Web Developer at Prenostik, enhancing web performance by transitioning React to Next.js for server-side rendering and implementing data management with PostgreSQL, Redis, and MongoDB. My previous roles at Sleeper and Newegg involved optimizing SEO, developing scalable web applications, and leveraging machine learning for data analysis. I'm focused on contributing to impactful web development projects and advancing my expertise in building high-performance applications.",
   items: [
     {
+      company: "Prenostik",
+      position: "Web Developer",
+      duration: "09/2024 - Present",
+    },
+    {
       company: "Sleeper",
-      position: "Software Engineering Intern",
+      position: "Software Engineer Intern (Front-end)",
       duration: "07/2024 - 09/2024",
     },
     {
