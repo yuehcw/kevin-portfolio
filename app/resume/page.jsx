@@ -26,7 +26,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "2+ Years",
+      fieldValue: "3+ Years",
     },
     {
       fieldName: "Title",
@@ -38,7 +38,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "yuehcw@uci.edu",
+      fieldValue: "kevin.wu.sde@gmail.com",
     },
     {
       fieldName: "Availability:",

@@ -25,7 +25,7 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase">
                 <a
-                  href="https://drive.google.com/file/d/1QEI_oF5EvpDRNGSXD_bWQl_fH-DIYUVJ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/185boIxiCPehqFWJBKRLVG0qzZpA7s-5-/view?usp=sharing"
                   download
                   className="flex items-center gap-2"
                 >
