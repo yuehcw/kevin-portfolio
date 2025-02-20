@@ -38,7 +38,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "kevin.wu.sde@gmail.com",
+      fieldValue: "yuehcw@uci.edu",
     },
     {
       fieldName: "Availability:",
