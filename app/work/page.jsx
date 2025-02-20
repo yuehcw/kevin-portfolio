@@ -68,6 +68,22 @@ const projects = [
     live: "https://baller-yuehcw-f6895eed5e61.herokuapp.com/",
     github: "https://github.com/yuehcw/Baller",
   },
+  {
+    num: "04",
+    category: "fullstack",
+    title: "BaseballViz",
+    description:
+      "BaseballViz is a web platform using React.js for the front-end and Flask for the back-end, with PostgreSQL as the persistent data tier, enabling seamless visualization of baseball player performance.",
+    stack: [
+      { name: "JavaScript" },
+      { name: "React.js" },
+      { name: "Flask" },
+      { name: "PostgreSQL" },
+    ],
+    image: "/assets/work/project_baseballViz.png",
+    live: "https://padres-frontend.vercel.app/",
+    github: "https://github.com/yuehcw/padres_project",
+  },
 ];
 
 const Work = () => {
@@ -89,7 +105,7 @@ const Work = () => {
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row xl:gap-[30px]">
+        <div className="flex flex-col xl:flex-row xl:gap-[60px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* outline num */}
