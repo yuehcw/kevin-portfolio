@@ -71,7 +71,7 @@ const projects = [
   {
     num: "04",
     category: "fullstack",
-    title: "BaseballViz",
+    title: "Baseball Viz",
     description:
       "BaseballViz is a web platform using React.js for the front-end and Flask for the back-end, with PostgreSQL as the persistent data tier, enabling seamless visualization of baseball player performance.",
     stack: [
@@ -79,10 +79,27 @@ const projects = [
       { name: "React.js" },
       { name: "Flask" },
       { name: "PostgreSQL" },
+      { name: "D3.js" },
     ],
     image: "/assets/work/project_baseballViz.png",
     live: "https://padres-frontend.vercel.app/",
     github: "https://github.com/yuehcw/padres_project",
+  },
+  {
+    num: "05",
+    category: "fullstack",
+    title: "Baseball Metrics",
+    description:
+      "BaseballMetrics is a full-stack baseball analytics platform using React.js and .NET, featuring interactive pages for player comparisons, performance trends, and leaderboard rankings.",
+    stack: [
+      { name: "JavaScript" },
+      { name: "React.js" },
+      { name: "ASP.NET" },
+      { name: "D3.js" },
+    ],
+    image: "/assets/work/project_astrometrics.png",
+    live: "https://port-3000--main--conception-noise--admin.ropeshq.com/",
+    github: "https://github.com/yuehcw",
   },
 ];
 
