@@ -60,12 +60,12 @@ const experience = {
   items: [
     {
       company: "Prenostik",
-      position: "Web Developer",
+      position: "Software Engineer Intern",
       duration: "09/2024 - Present",
     },
     {
       company: "Sleeper",
-      position: "Software Engineer Intern (Front-end)",
+      position: "Software Engineer Intern",
       duration: "07/2024 - 09/2024",
     },
     {
