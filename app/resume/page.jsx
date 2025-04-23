@@ -14,7 +14,7 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "I am a Web Developer with expertise in React, Next.js, and Tailwind CSS, and experience in backend frameworks like Spring and Django. I’ve optimized SEO, improved scalability, and built user-friendly applications in roles at Prenostik and Sleeper, focusing on delivering high-performance, impactful solutions.",
+    "I am a Software Engineer with expertise in React, Next.js, and Tailwind CSS, and experience in backend frameworks like Spring, Flask and Django. I’ve optimized SEO, improved scalability, and built user-friendly applications in roles at Prenostik and Sleeper, focusing on delivering high-performance, impactful solutions.",
   info: [
     {
       fieldName: "Name",
@@ -26,11 +26,11 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "3+ Years",
+      fieldValue: "2+ Years",
     },
     {
       fieldName: "Title",
-      fieldValue: "Web Developer",
+      fieldValue: "Software Engineer",
     },
     {
       fieldName: "Nationality",
@@ -46,7 +46,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English Chinese",
+      fieldValue: "English Taiwanese",
     },
   ],
 };
@@ -56,7 +56,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Currently, I'm a Web Developer at Prenostik, enhancing web performance by transitioning React to Next.js for server-side rendering and implementing data management with PostgreSQL, Redis, and MongoDB. My previous roles at Sleeper and Newegg involved optimizing SEO, developing scalable web applications, and leveraging machine learning for data analysis. I'm focused on contributing to impactful web development projects and advancing my expertise in building high-performance applications.",
+    "Currently, I'm a Software Engineer at Prenostik, enhancing web performance by transitioning React to Next.js for server-side rendering and implementing data management with PostgreSQL, Redis, and MongoDB. My previous roles at Sleeper and Newegg involved optimizing SEO, developing scalable web applications, and leveraging machine learning for data analysis. I'm focused on contributing to impactful web development projects and advancing my expertise in building high-performance applications.",
   items: [
     {
       company: "Prenostik",
