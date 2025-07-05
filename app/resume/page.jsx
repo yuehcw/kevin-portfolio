@@ -60,8 +60,8 @@ const experience = {
   items: [
     {
       company: "Prenostik",
-      position: "Software Engineer Intern",
-      duration: "09/2024 - Present",
+      position: "Software Engineer",
+      duration: "09/2024 - 12/2024",
     },
     {
       company: "Sleeper",
@@ -91,7 +91,7 @@ const education = {
     {
       institution: "University of California, Irvine",
       degree: "Master of Science in Software Engineering",
-      duration: "09/2023 - 12/2024 (Expected)",
+      duration: "09/2023 - 12/2024",
     },
     {
       institution: "University of California, Irvine",
